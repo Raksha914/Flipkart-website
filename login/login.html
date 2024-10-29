@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="header">
+          <img src="images/logo.jpg" alt="Logo of Flipcart" />
+        </div>
+        <div class="search-icon">
+          <i class="bi bi-search"></i>
+          <input
+            type="search"
+            name="search"
+            id="search"
+            placeholder="Search for Products, Brands, and More "
+          />
+        </div>
+
+        <div id="login-button">
+          <i class="bi bi-person-circle" id="customer"></i>
+          <button type="button" id="login-btn">
+            Login
+            <i class="fa-solid fa-angle-down" id="angle-down"></i>
+            <i class="fa-solid fa-angle-up" id="angle-up"></i>
+          </button>
+          <div class="dropdown" id="dropdown">
+            <option class="one" style="border-bottom: 0.5px solid grey">
+              New customer?
+            </option>
+            <option><i class="bi bi-person-circle"></i> My Profile</option>
+            <option><i class="bi bi-book-half"></i> Flipkart Plus Zone</option>
+            <option><i class="bi bi-box-seam"></i> Orders</option>
+            <option><i class="bi bi-heart"></i> Wishlist</option>
+            <option><i class="bi bi-gift"></i> Rewards</option>
+            <option>
+              <i class="bi bi-credit-card-2-front"></i> Gift Cards
+            </option>
+          </div>
+        </div>
+
+        <div id="cart">
+          <p><i class="bi bi-cart4"></i> Cart</p>
+        </div>
+
+        <div id="become-seller">
+          <p><i class="bi bi-shop"></i> Become a Seller</p>
+        </div>
+        <div id="dots">
+          <i class="bi bi-three-dots-vertical"></i>
+          <div id="dropdown-of-lists">
+            <option>Notifiction Preferences</option>
+            <option>24 x 7 Customer Care</option>
+            <option>Advertise</option>
+            <option>Download App</option>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <div class="section">
+        <div class="dropdown-section">
+          <select name="Electronics" id="Electronics" style="width: 80px">
+            <option disabled selected><b>Mobiles</b></option>
+            <option>MI</option>
+            <option>RealMe</option>
+            <option>Samsung</option>
+            <option>Infinix</option>
+            <option>Oppo</option>
+            <option>Apple</option>
+            <option>Vivo</option>
+            <option>Honor</option>
+            <option>iPhone SE</option>
+          </select>
+        </div>
+        <div class="dropdown-section">
+          <select name="TVs" id="TVs" style="width: 140px">
+            <option disabled selected>TVs & Appliences</option>
+            <option>Television</option>
+            <option>Smart & Ultra HD</option>
+            <option>Smart Phones</option>
+            <option>Washing Machines</option>
+            <option>Air Conditioners</option>
+            <option>Refregirator</option>
+            <option>Kitchen Appliences</option>
+            <option>Small Home Appliences</option>
+          </select>
+        </div>
+        <div class="dropdown-section">
+          <select name="men" id="Men" style="width: 60px">
+            <option disabled selected>Men</option>
+            <option>Footwear</option>
+            <option>Men's Grooming</option>
+            <option>Clothing</option>
+            <option>Top wear</option>
+            <option>Bottom wear</option>
+            <option>Suits, Blazers & Waistcoats</option>
+            <option>Ties, Socks, Caps & More</option>
+            <option>Fabrics</option>
+            <option>Winter Wear</option>
+            <option>Ethnic wear</option>
+            <option>Innerwear & Loungwear</option>
+            <option>Raincoats & Windcheaters</option>
+            <option>Watches</option>
+            <option>Accessories</option>
+          </select>
+        </div>
+        <div class="dropdown-section">
+          <select name="men" id="Men" style="width: 80px">
+            <option disabled selected>Women</option>
+            <option>Footwear</option>
+            <option>Men's Grooming</option>
+            <option>Clothing</option>
+            <option>Top wear</option>
+            <option>Bottom wear</option>
+            <option>Suits, Blazers & Waistcoats</option>
+            <option>Ties, Socks, Caps & More</option>
+            <option>Fabrics</option>
+            <option>Winter Wear</option>
+            <option>Ethnic wear</option>
+            <option>Innerwear & Loungwear</option>
+            <option>Raincoats & Windcheaters</option>
+            <option>Watches</option>
+            <option>Accessories</option>
+          </select>
+        </div>
+        <div class="dropdown-section">
+          <select name="TVs" id="TVs" style="width: 110px">
+            <option disabled selected>Baby & Kids</option>
+            <option>Television</option>
+            <option>Smart & Ultra HD</option>
+            <option>Smart Phones</option>
+            <option>Washing Machines</option>
+            <option>Air Conditioners</option>
+            <option>Refregirator</option>
+            <option>Kitchen Appliences</option>
+            <option>Small Home Appliences</option>
+          </select>
+        </div>
+        <div class="dropdown-section">
+          <select name="TVs" id="TVs" style="width: 140px">
+            <option disabled selected>Home & Furniture</option>
+            <option>Television</option>
+            <option>Smart & Ultra HD</option>
+            <option>Smart Phones</option>
+            <option>Washing Machines</option>
+            <option>Air Conditioners</option>
+            <option>Refregirator</option>
+            <option>Kitchen Appliences</option>
+            <option>Small Home Appliences</option>
+          </select>
+        </div>
+        <div class="dropdown-section">
+          <select name="TVs" id="TVs" style="width: 165px">
+            <option disabled selected>Sports, Books & More</option>
+            <option>Television</option>
+            <option>Smart & Ultra HD</option>
+            <option>Smart Phones</option>
+            <option>Washing Machines</option>
+            <option>Air Conditioners</option>
+            <option>Refregirator</option>
+            <option>Kitchen Appliences</option>
+            <option>Small Home Appliences</option>
+          </select>
+        </div>
+        <div class="dropdown-section"><p class="para1">Flights</p></div>
+        <div class="dropdown-section"><p class="para2">Offer Zone</p></div>
+      </div>
+    </section>
+
+    <section class="main">
+      <div class="container-main">
+        <div class="main-loginContent">
+<div class="content1">
+  <p class="paragraph1">Login</p>
+  <p class="paragraph2">Get access to your Orders, <br> Wishlist and Recommendations</p>
+  <img src="images/login.png" >
+</div>
+
+<div class="content2">
+  <input type="text" placeholder="Enter Email/ Mobile number" id="input">
+  <p class="policy"></p>
+  <p class="policy1">By continuing, you agree to Flipkart's Terms of Use and Privacy Policy.</p>
+  <button>Request OTP</button>
+  <p class="account">New to Flipkart? Create an account</p>
+</div>
+      </div>
+    </section>
+
+    <footer>
+      <section class="section-1">
+        <div class="footer">
+          <div class="groups">
+            <h6>ABOUT</h6>
+            <ul>
+              <li>Contact Us</li>
+              <li>About Us</li>
+              <li>Careers</li>
+              <li>Flipkart Stories</li>
+              <li>Press</li>
+              <li>Corporate Information</li>
+            </ul>
+          </div>
+          <div class="groups">
+            <h6>GROUP COMPANIES</h6>
+            <ul>
+              <li>Myntra</li>
+              <li>Cleartrip</li>
+              <li>Shopsy</li>
+            </ul>
+          </div>
+          <div class="groups">
+            <h6>HELP</h6>
+            <ul>
+              <li>Payments</li>
+              <li>Shipping</li>
+              <li>Cancellation & Returns</li>
+              <li>FAQ</li>
+              <li>Report Infringement</li>
+            </ul>
+          </div>
+          <div class="groups">
+            <h6>CONSUMER POLICY</h6>
+            <ul>
+              <li>Cancellation & Returns</li>
+              <li>Terms Of Use</li>
+              <li>Security</li>
+              <li>Privacy</li>
+              <li>Sitemap</li>
+              <li>Grievance Redressal</li>
+              <li>EPR Compliance</li>
+            </ul>
+          </div>
+          <div class="groups">
+            <h6>Mail Us:</h6>
+            <p>
+              Flipkart Internet Private Limited,<br />
+              Buildings Alyssa, Begonia & Clove Embassy Tech Village,<br />
+              Outer Ring Road, Devarabeesanahalli Village,<br />
+              Bengaluru, 560103,<br />
+              Karnataka, India
+            </p>
+
+            <h6>Social:</h6>
+            <p>
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-twitter"></i>
+              <i class="bi bi-youtube"></i>
+            </p>
+          </div>
+          <div class="groups">
+            <h6>Registered Office Address:</h6>
+            <p>
+              Flipkart Internet Private Limited,<br />
+              Buildings Alyssa, Begonia & Clove Embassy Tech Village,<br />
+              Outer Ring Road, Devarabeesanahalli Village,<br />
+              Bengaluru, 560103,<br />
+              Karnataka, India<br />
+              CIN: U51109KA2012PTC066107<br />
+              Telephone: 044-45614700 / 044-67415800
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-2">
+        <div class="footer2">
+          <p><i class="bi bi-shop-window"></i> Become a Seller</p>
+          <p><i class="bi bi-stars"></i> Advertise</p>
+          <p><i class="bi bi-gift"></i> Gift Cards</p>
+          <p><i class="bi bi-question-circle"></i> Help Center</p>
+          <p>&copy; 2007-2024 Flipkart.com</p>
+          <p style="margin-left: 150px">
+            <img src="images/footer1.jgp.webp" alt="Visa" />
+            <img src="images/footer2.jgp.webp" alt="MasterCard" />
+            <img src="images/footer3.jgp.webp" alt="Amex" />
+            <img src="images/footer4.jgp.webp" alt="RuPay" />
+            <img src="images/footer5.jgp.webp" alt="Net Banking" />
+            <img src="images/footer6.jgp.webp" alt="Cash on Delivery" />
+            <img src="images/footer7.jgp.webp" alt="EMI Options" />
+          </p>
+        </div>
+      </section>
+    </footer>
+
+    <script src="login.js"></script>
+  </body>
+</html>
